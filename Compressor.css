@@ -1,0 +1,231 @@
+/* Center alignment for text */
+.center {
+  text-align: center !important;
+}
+
+/* Background color for dark theme */
+.b {
+  background-color: #1f1f1f; /* Dark grey */
+}
+
+/* Main container styling */
+.mainContainer {
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff; /* White text for better visibility */
+  padding: 20px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .mainContainer {
+    margin: 0;
+  }
+}
+
+/* Navbar styling */
+.navbar {
+  z-index: 1041;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  background-color: #333333 !important; /* Dark grey */
+  padding: 20px;
+}
+.namenavbar{
+  margin-left: 20px;
+}
+.navbar-content {
+  color: #f5f5f5 !important; /* Off-white */
+  text-align: center !important;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Help and history icons */
+.help-icon,
+.history-icon {
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 20px;
+  color: #f5f5f5;
+  transition: color 0.3s;
+}
+
+.help-icon:hover,
+.history-icon:hover {
+  color: goldenrod; /* Teal */
+}
+
+/* Help and history containers */
+.help-container,
+.history-container {
+  text-align: left;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0; /* Light grey */
+  border-radius: 5px;
+  margin: 10px auto;
+  max-height: 200px;
+  overflow-y: auto;
+  color: #333333; /* Dark text for visibility */
+}
+
+.btn.download-btn {
+  background-color: #2980b9; /* Teal */
+  transition: background-color 0.3s;
+  margin-top: 30px; /* Adds 30px space below the compressed image */
+  display: block; /* Ensures it is always below the image */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-icons {
+  margin-right: 10px;
+  box-sizing: border-box;
+  width: 1.5em !important;
+  height: 1.5em !important;
+  color: black; /* Light grey */
+  transition: color 0.3s;
+}
+
+.social-icons:hover {
+  color: goldenrod; /* Teal */
+}
+
+/* Upload card styling */
+.uploadCard {
+  width: 80%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border: 1px solid #dcdcdc; /* Light grey */
+  border-radius: 5px;
+}
+
+/* Upload button wrapper styling */
+.upload-btn-wrapper {
+  margin-top:30px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #3498db; /* Blue */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: #2980b9; /* Darker blue */
+  transform: scale(1.05);
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+/* Slider styling */
+#qualitySlider {
+  width: 100%;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.btn.download-btn {
+  background-color:  #2980b9  ; /* Teal */
+  transition: background-color 0.3s;
+  margin-top: 30px;
+  
+}
+.img2{
+  margin-left: 5px;
+}
+
+
+.btn.download-btn:hover {
+  background-color:  #2980b9; /* Darker teal */
+
+}
+
+.btn-reset {
+  border: none;
+  color: white;
+  background-color: #e74c3c; /* Red */
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-left: 20px;
+}
+
+.btn-reset:hover {
+  background-color: #c0392b; /* Darker red */
+  transform: scale(1.05);
+}
+
+/* Compressed message styling */
+.compressed-message {
+  font-size: 24px;
+  font-weight: bold;
+  color:  #2ecc71; /* Green */
+  margin-top: 10px;
+  transition: color 0.3s;
+}
+
+.compressed-message:hover {
+  color: #2ecc71; /* Lighter green */
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 15px;
+}
+
+/* Original size, compressed size, and quality */
+.compression-details {
+  margin: 20px 0;
+  color: #ffffff; /* White text */
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Responsive styling for help and history containers */
+@media (max-width: 768px) {
+  .help-container,
+  .history-container {
+    width: 100%;
+    max-width: none;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
