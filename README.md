@@ -1,6 +1,5 @@
 # Image Compressor
 
-![Project Banner](https://via.placeholder.com/1000x300?text=Image+Compressor)  
 A responsive web application for compressing images effectively while maintaining visual quality. Built with **React**, **Bootstrap**, and **CSS**, this project simplifies image optimization for users with an easy-to-navigate interface.
 
 ## Features
